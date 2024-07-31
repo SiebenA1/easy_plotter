@@ -1,0 +1,110 @@
+{
+    "visualization" : {
+        "time_domain_plot" :[
+            {
+                "id" : "fig1",
+                "description" : "Basic warning signals of current test case.",
+                "plot_settings":
+                {
+                    "title" : "Warning Status",
+                    "x_axis_settings" : {
+                            "x_label" : "Time [s]",
+                            "x_axis" : "10::50::5"
+                    },
+                    "y_axis_settings" : {
+                            "y_label" : "Warning",
+                            "y_axis" : "-5::30::5"
+                    }
+                },
+                "signals" : [
+                    {
+                        "signal_name" : "AWV_Warnung",
+                        "legend" : "AWV Warning"
+                    },
+                    {
+                        "signal_name" : "AWV_Warnlevel",
+                        "color" : "red",
+                        "style" : ":",
+                        "width" : "5",
+                        "legend" : "AWV Warnlevel",
+                        "y_axis" : "1"
+                    }
+                ],
+                "vertical_lines" : [
+                    {
+                        "x_position" : "30",
+                        "color" : "blue",
+                        "style" : "--",
+                        "width" : "2",
+                        "legend" : "AWV Warning Level Phase",
+                        "text" :
+                        {
+                            "text_content": "Activated",
+                            "text_y_position" : "10",
+                            "y_axis" : "1",
+                            "x_alignment" : "left",
+                            "y_alignment" : "bottom"
+                        }
+                    }
+                ],
+                "horizontal_lines" : [],
+                "scatters" : [],
+                "rectangles" : [],
+                "texts" : [],
+                "fitted lines" : []
+            },
+            {
+                "id" : "fig2",
+                "description" : "Basic warning signals of current test case.",
+                "plot_settings":
+                {
+                    "title" : "Warning Status",
+                    "x_axis_settings" : {
+                            "x_label" : "Time [s]",
+                            "x_axis" : "10::50::5"
+                    },
+                    "y_axis_settings" : {
+                            "y_label" : "Warning",
+                            "y_axis" : "-5::30::5"
+                    }
+                },
+                "signals" : [
+                    {
+                        "signal_name" : "AWV_Warnung",
+                        "legend" : "AWV Warning"
+                    },
+                    {
+                        "signal_name" : "AWV_Warnlevel",
+                        "color" : "red",
+                        "style" : ":",
+                        "width" : "5",
+                        "legend" : "AWV Warnlevel",
+                        "y_axis" : "1"
+                    }
+                ],
+                "vertical_lines" : [
+                    {
+                        "x_position" : "20",
+                        "color" : "red",
+                        "style" : "--",
+                        "width" : "2",
+                        "legend" : "AWV Warning Level Phase",
+                        "text" :
+                        {
+                            "text_content": "Activated",
+                            "text_y_position" : "10",
+                            "y_axis" : "1",
+                            "x_alignment" : "left",
+                            "y_alignment" : "bottom"
+                        }
+                    }
+                ],
+                "horizontal_lines" : [],
+                "scatters" : [],
+                "rectangles" : [],
+                "texts" : [],
+                "fitted lines" : []
+            }],
+        "statistics_plot" : []
+    }
+}
